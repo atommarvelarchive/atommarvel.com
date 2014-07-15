@@ -17,12 +17,27 @@
   </head>
 
   <body>
+
+    <!-- Side Menu -->
+    <a id="menu-toggle" href="#" class="btn btn-primary btn-lg toggle"><i class="icon-reorder"></i></a>
+    <div id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="icon-reorder"></i></a>
+        <li class="sidebar-brand"></li>
+        <li><a href="#top">Home</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <!-- /Side Menu -->
   
     <!-- Full Page Image Header Area -->
     <div id="top" class="header">
       <div class="vert-text">
-        <h1>Real Time Pokemon Battle</h1>
-        <a href="#intro" class="btn btn-default btn-lg">Gottacatchthemallinrealtime</a>
+        <h1>atommarvel.com</h1>
+        <a href="#intro" class="btn btn-default btn-lg">Let's make things better.</a>
       </div>
     </div>
     <!-- /Full Page Image Header Area -->
@@ -32,7 +47,8 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-md-offset-3 text-center">
-            <h2>The Game will be posted here soon.</h2>
+            <h2>I'm a Computer Science major from <div style="color:#CFB53B">Georgia Tech.</div></h2>
+            <p class="lead">I'm graduating in May 2014. I'm looking for employment.</br> This page will be in tip-top shape shortly.</p>
           </div>
         </div>
       </div>
