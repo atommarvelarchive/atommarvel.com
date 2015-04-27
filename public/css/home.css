@@ -22,44 +22,12 @@ body {
     color:white;
 }
 
-#bookmarksAbsolute{
-  position : absolute;
-  top: 0%;
-  width: 100%;
-  color:white;
-}
-
-#bookmarksFlex{
-  display: flex;
-  flex-direction:row;
-  width: 100%;
-  justify-content:flex-start;
-  align-items: center;
-}
-
-.bookmarks{
-  padding-left: 20px;
-  font-size: 1.2em;
-  padding-right: 20px;
-}
-
-.bookmarks:hover{
-  background: rgba(0, 0, 0, 0.5);
-  outline:1px solid white;
-}
-
-.searchSuggestContainer{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
-.load {
+.atom {
     width:60px;
     height:60px;
 }
 
-.loader-ring {
+.atom-ring {
   position: absolute;
   width: 60px;
   height: 60px;
@@ -67,16 +35,16 @@ body {
       -ms-transform: skew(30deg, 20deg);
           transform: skew(30deg, 20deg);
 }
-.loader-ring:last-of-type {
+.atom-ring:last-of-type {
   -webkit-transform: skew(-30deg, -20deg) scale(-1, 1);
       -ms-transform: skew(-30deg, -20deg) scale(-1, 1);
           transform: skew(-30deg, -20deg) scale(-1, 1);
 }
-.loader-ring:last-of-type img {
+.atom-ring:last-of-type img {
   -webkit-animation-delay: -0.5s;
           animation-delay: -0.5s;
 }
-.loader-ring img {
+.atom-ring img {
   max-width: 100%;
   height: auto;
   -webkit-animation: rotate 1s linear infinite;
